@@ -10,7 +10,7 @@ The first micro service provides three GATE pipelines:
 
 As a second microservice, a Python based application offers access to language models:
 
-* Huggingface Bert-base-NER (ToDo: Link oder citation!!!) extracting people, locations and organizations
+* Huggingface Bert-base-NER extracting people, locations and organizations
 * [SciSpacy with the BioNLP model](https://github.com/allenai/scispacy) recognizing for instance cancer, cells and anatomical structures. 
 
 ## Prerequisites
@@ -27,7 +27,9 @@ Python version 3.9
 
 ### GATE pipelines
 
-TODO: please download the BiodivTagger and OrganismTagger
+Please download the BiodivTagger and the OrganismTagger from Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7441627.svg)](https://doi.org/10.5281/zenodo.7441627).
+
+The GATE ANNIE pipeline is default pipeline available in the [GATE framework](https://github.com/GateNLP).
 
 
 ## Installation and running
