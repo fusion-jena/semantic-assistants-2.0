@@ -77,7 +77,7 @@ run blow commands in order:
 
 ```.\myenv\Scripts\activate```
 
-Linux: ```./myenv/bin/activate```
+Linux: ```source myenv/bin/activate```
 
 ```pip install -r requirements.txt```
 
