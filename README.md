@@ -10,8 +10,12 @@ The first micro service provides three GATE pipelines:
 
 As a second microservice, a Python based application offers access to language models:
 
-* Huggingface Bert-base-NER extracting people, locations and organizations
-* [SciSpacy with the BioNLP model](https://github.com/allenai/scispacy) recognizing for instance cancer, cells and anatomical structures. 
+* [Huggingface Bert-base-NER](https://huggingface.co/dslim/bert-base-NER) extracting people, locations and organizations
+* [SciSpacy with the en_core_sci_sm model](https://github.com/allenai/scispacy) recognizing biomedical data. 
+
+## Demo
+
+A demonstration is available: https://semsearch.fmi.uni-jena.de/SA2.0/swagger-ui.html
 
 ## Prerequisites
 
